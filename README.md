@@ -1,5 +1,5 @@
 # Gitlet
-Implment a version control system by Java.
+Implment a version control system.
 ## Overview
 This is a project from [CS61B](https://sp21.datastructur.es/materials/proj/proj2/proj2). Gitlet mimics some fundamental functions in the Git, but in a simple way.  
 In general, Gitlet support following functions:  
