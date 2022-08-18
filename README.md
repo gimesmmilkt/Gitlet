@@ -68,4 +68,6 @@ java gitlet.Main merge [branch name]
 Merge the files from the given branch into the current branch.
 ## Persistence
 Since this is a version control system, the persistence is necessary. In general, serialization is used to store essential objects.  
-Specifically, staging area is divided into addition and removal to store files. 
+Specifically, staging area is divided into addition and removal to store files. Each of them uses tree map to store the filename and content.  
+There is also a commit map, also tree map, to store all commit id and each commit itself. When creating a new commit, the 'Head' will point to it and 'Head' commit id is also store into a file.  
+Branches are also stored for tracking the current branch.
