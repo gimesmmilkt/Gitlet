@@ -1,7 +1,0 @@
-# Basic initialization
-> init
-<<<
-> branch cold
-<<<
-> checkout cold
-E .gitlet
